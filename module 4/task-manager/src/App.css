@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 25px;
+}
+
+table {
+  margin: 30px auto;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 12px;
+}
+
+th {
+  background-color: #eeeeee;
+}
+
+button {
+  padding: 8px 15px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.my-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+}
+
+.basic-form {
+  width: 300px;
+  margin: 30px auto;
+}
+
+.basic-form input,
+.basic-form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px;
+  box-sizing: border-box;
+}
