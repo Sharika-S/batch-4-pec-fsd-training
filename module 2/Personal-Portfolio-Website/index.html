@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <h2 class="logo">My Portfolio</h2>
+
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-text">
+            <h1>Hello, I'm <span>Sharika</span></h1>
+
+            <h2>AI & Data Science Student</h2>
+
+            <p>
+                I am a passionate student interested in Artificial Intelligence,
+                Data Science, Web Development and modern technologies.
+                I enjoy creating useful and user-friendly applications.
+            </p>
+
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+
+        <div class="about-image">
+            <div class="profile-circle">
+                👩‍💻
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <p>Creating structured web pages.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <p>Designing responsive and attractive websites.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>Adding interactive features to websites.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Python</h3>
+                <p>Developing applications and working with data.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Data Science</h3>
+                <p>Analyzing data and building useful solutions.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>AI & ML</h3>
+                <p>Learning artificial intelligence and machine learning.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <h3>Personal Expense Tracker</h3>
+
+                <p>
+                    A web application for adding and managing
+                    personal expenses.
+                </p>
+
+                <button onclick="showProject('Personal Expense Tracker')">
+                    View Project
+                </button>
+            </div>
+
+            <div class="project-card">
+                <h3>Plant Disease Detection</h3>
+
+                <p>
+                    A deep learning project that detects diseases
+                    from plant leaf images.
+                </p>
+
+                <button onclick="showProject('Plant Disease Detection')">
+                    View Project
+                </button>
+            </div>
+
+            <div class="project-card">
+                <h3>Inventory Management System</h3>
+
+                <p>
+                    A system for managing products, categories
+                    and inventory information.
+                </p>
+
+                <button onclick="showProject('Inventory Management System')">
+                    View Project
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Contact Me</h2>
+
+        <form id="contactForm">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required
+            >
+
+            <textarea
+                id="message"
+                placeholder="Your Message"
+                required
+            ></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Sharika. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

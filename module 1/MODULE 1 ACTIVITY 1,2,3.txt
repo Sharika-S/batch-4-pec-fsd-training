@@ -1,0 +1,235 @@
+MODULE:1
+ACTIVITY:1:How the Internet Works
+
+
+Aim
+
+To understand how a web browser communicates with a server and database to process a request and return a response.
+
+Requirements
+Web browser
+Computer or mobile
+Internet connection
+Three students/participants
+Participants
+Browser/Client – Sends the request.
+Server – Processes the request.
+Database – Stores and provides the required data.
+Procedure
+
+Step 1: User sends a request
+The user enters a website URL in the browser, for example:
+
+www.example.com
+
+The browser sends an HTTP request to the server.
+
+Step 2: Server receives the request
+The server receives the request and determines what information is needed.
+
+Step 3: Server communicates with the database
+If the requested information is stored in a database, the server sends a query to the database.
+
+Example:
+
+SELECT * FROM products;
+
+Step 4: Database sends the data
+The database searches for the requested information and sends the results back to the server.
+
+Step 5: Server processes the data
+The server processes the database response and prepares an HTTP response.
+
+Step 6: Browser displays the response
+The server sends the response back to the browser. The browser displays the webpage to the user.
+
+Simulation
+User
+  ↓
+Browser
+  ↓  HTTP Request
+Server
+  ↓  Database Query
+Database
+  ↓  Data
+Server
+  ↓  HTTP Response
+Browser
+  ↓
+Webpage displayed
+Example
+
+When a student opens an online shopping website:
+
+Browser: “I need the details of a laptop.”
+↓
+Server: Receives the request.
+↓
+Database: Finds the laptop name, price, and stock.
+↓
+Server: Sends the information back.
+↓
+Browser: Displays the laptop details.
+
+Result
+
+The activity demonstrates how a browser, server, and database work together to process user requests and return information over the Internet.
+
+
+
+
+
+
+
+MODULE:1
+ACTIVITY:2: Logic Building Challenge
+
+Aim
+
+To develop logical thinking and problem-solving skills by creating flowcharts and pseudocode before implementing a solution in code.
+
+Requirements
+Computer or laptop
+Programming environment
+Flowchart tool or paper
+Basic programming knowledge
+Procedure
+
+Step 1: Identify the Problem
+Students are given a simple problem such as finding whether a number is even or odd.
+
+Step 2: Write the Algorithm
+The steps required to solve the problem are written in a logical sequence.
+
+Step 3: Create Pseudocode
+
+START
+Input number
+IF number is divisible by 2
+    Display "Even"
+ELSE
+    Display "Odd"
+END IF
+STOP
+
+Step 4: Create a Flowchart
+
+   START
+     ↓
+ Input Number
+     ↓
+Number % 2 = 0?
+   ↙       ↘
+ YES       NO
+  ↓         ↓
+Even       Odd
+   ↘       ↙
+      STOP
+
+Step 5: Implement the Solution
+Students convert the pseudocode into a programming language such as Python.
+
+number = int(input("Enter a number: "))
+
+if number % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+Progression of Problems
+
+Students can gradually solve more complex problems:
+
+Check whether a number is even or odd.
+Find the largest of three numbers.
+Calculate the factorial of a number.
+Check whether a number is prime.
+Calculate student grade based on marks.
+Result
+
+Students learn to break a problem into smaller logical steps and understand how pseudocode and flowcharts help before writing actual code.
+
+
+MODULE:1
+Activity 3: Real-world Scenario Mapping
+
+
+Aim
+
+To understand how frontend, backend, and database components work together in applications used in everyday life.
+
+Requirements
+Computer or notebook
+Internet connection
+Knowledge of basic web application components
+Procedure
+
+Step 1: Identify Common Applications
+Students select applications they use regularly, such as:
+
+YouTube
+Instagram
+Amazon
+WhatsApp
+Online Banking
+
+Step 2: Identify the Frontend
+The frontend is the part of the application that users see and interact with.
+
+Examples:
+
+Buttons
+Menus
+Search bar
+Images
+Forms
+Product pages
+
+Step 3: Identify the Backend
+The backend processes user requests and contains the application logic.
+
+Examples:
+
+User authentication
+Processing orders
+Sending messages
+Searching for products
+Processing payments
+
+Step 4: Identify the Database
+The database stores information required by the application.
+
+Examples:
+
+User accounts
+Password information
+Product details
+Orders
+Messages
+Payment records
+Example: Amazon
+Component	Example
+Frontend	Product page, search bar, shopping cart
+Backend	Login, order processing, payment processing
+Database	User details, product information, orders
+Example: YouTube
+Component	Example
+Frontend	Videos, search bar, comments, like button
+Backend	Video processing, recommendations, user authentication
+Database	User accounts, video information, comments, likes
+Basic Architecture
+             USER
+               ↓
+           FRONTEND
+               ↓
+            BACKEND
+               ↓
+           DATABASE
+               ↓
+            BACKEND
+               ↓
+           FRONTEND
+               ↓
+             USER
+Result
+
+Students understand how the frontend, backend, and database work together to provide the features of real-world applications.

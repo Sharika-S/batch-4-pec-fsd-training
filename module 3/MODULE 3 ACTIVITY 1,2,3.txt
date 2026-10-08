@@ -1,0 +1,141 @@
+MODULE:3
+Activity 1: API Data Retrieval
+
+Aim
+
+To understand how to retrieve data from a public API and display it dynamically on a webpage.
+
+Requirements
+Computer or laptop
+VS Code
+Web browser
+HTML, CSS, and JavaScript
+Internet connection
+Public API
+Procedure
+
+Step 1: Select a Public API
+Students choose a freely available API, such as a weather, movie, or user information API.
+
+Step 2: Send an API Request
+JavaScript is used to request data from the API using the fetch() method.
+
+fetch("https://api.example.com/data")
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
+    });
+
+Step 3: Process the Response
+The received JSON data is processed and the required information is extracted.
+
+Step 4: Display the Data
+The data is dynamically displayed on the webpage using JavaScript and DOM manipulation.
+
+Result
+
+Students learn how to consume public APIs, process JSON data, and dynamically display API data on webpages.
+
+
+
+MODULE:3
+Activity 2: Team Collaboration Simulation
+
+
+Aim
+
+To understand collaborative software development using Git branches, pull requests, and code reviews.
+
+Requirements
+Computer or laptop
+Git
+GitHub account
+VS Code
+Internet connection
+Procedure
+
+Step 1: Create a Repository
+A team member creates a GitHub repository and adds other team members as collaborators.
+
+Step 2: Create Git Branches
+Each student creates a separate branch for their assigned task.
+
+git checkout -b feature-login
+
+Step 3: Make Changes
+Students implement their assigned features and save the changes.
+
+Step 4: Commit and Push Changes
+
+git add .
+git commit -m "Added login feature"
+git push origin feature-login
+
+Step 5: Create a Pull Request
+Students create a pull request on GitHub to merge their branch into the main branch.
+
+Step 6: Code Review
+Another team member reviews the code, provides comments, and suggests improvements.
+
+Step 7: Merge the Changes
+After approval, the pull request is merged into the main branch.
+
+Result
+
+Students understand how Git and GitHub support teamwork, version control, code reviews, and collaborative software development.
+
+
+
+MODULE:3
+Activity 3: Debugging Challenge
+
+
+Aim
+
+To develop debugging skills by identifying and fixing intentionally introduced errors in JavaScript applications.
+
+Requirements
+Computer or laptop
+VS Code
+Web browser
+HTML, CSS, and JavaScript
+Procedure
+
+Step 1: Provide a JavaScript Application
+Students are given a small application containing intentional errors.
+
+Step 2: Run the Application
+Students observe incorrect results or errors in the browser.
+
+Step 3: Inspect the Error
+The browser's Developer Tools and Console are used to identify error messages.
+
+Step 4: Identify the Bug
+Students locate the incorrect code, such as:
+
+Syntax errors
+Incorrect variable names
+Missing brackets
+Incorrect conditions
+Wrong function calls
+
+Step 5: Fix the Bug
+Students modify the code and run the application again.
+
+Step 6: Test the Application
+Students verify that the application works correctly after fixing the errors.
+
+Example
+
+Incorrect Code:
+
+let name = "Sharika";
+console.log(nam);
+
+Correct Code:
+
+let name = "Sharika";
+console.log(name);
+Result
+
+Students develop practical debugging and problem-solving skills and learn how to use browser developer tools to identify and fix JavaScript errors.

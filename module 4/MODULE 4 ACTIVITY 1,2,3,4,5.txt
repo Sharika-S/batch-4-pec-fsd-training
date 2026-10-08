@@ -1,0 +1,215 @@
+MODULE:4
+Activity 1: Component Creation Workshop
+
+Aim
+
+To understand React component-based architecture by designing and developing reusable UI components.
+
+Components to Develop
+Navigation Bar
+Cards
+Forms
+Modal Windows
+Dashboard Widgets
+Procedure
+Create a React project.
+Create separate components for each UI element.
+Design and style the components using CSS.
+Import the components into the main application.
+Reuse the same components in different sections of the application.
+Test the components to ensure they work correctly.
+Example
+
+A reusable Card component can be used to display students, products, courses, or other information by passing different data as props.
+
+Outcome
+
+Students understand component-based architecture, reusable components, and props in React.
+
+
+
+MODULE:4
+Activity 2: Dynamic Data Rendering Lab
+
+
+Aim
+
+To understand how React applications retrieve data from APIs and dynamically display it on webpages.
+
+Applications
+
+Students create interfaces to display:
+
+Student Lists
+Product Catalogs
+News Feeds
+Weather Information
+Procedure
+Select a suitable public API.
+Use JavaScript's fetch() method to retrieve data.
+Store the received data using React state.
+Display the data using reusable React components.
+Add loading and error messages.
+Test the application with different API responses.
+Example
+fetch("https://api.example.com/products")
+  .then(response => response.json())
+  .then(data => setProducts(data));
+Outcome
+
+Students understand API integration and data-driven UI development in React.
+
+
+MODULE:4
+Activity 3: State Management Challenge
+
+
+Aim
+
+To understand React state management and how application data changes based on user actions.
+
+Applications
+
+Students develop interactive applications such as:
+
+Counters
+Task Managers
+Expense Trackers
+Shopping Carts
+Procedure
+Create a React application.
+Identify the data that needs to change.
+Create state variables using useState().
+Create functions to update the state.
+Connect buttons and forms to state-changing functions.
+Display the updated state dynamically.
+Example
+const [count, setCount] = useState(0);
+
+<button onClick={() => setCount(count + 1)}>
+  Increase
+</button>
+Outcome
+
+Students understand React state management, user interaction, and application flow.
+
+
+
+MODULE:4
+Activity 4: Routing & Navigation Exercise
+
+Aim
+
+To understand navigation and routing in React Single Page Applications (SPAs).
+
+Features to Implement
+Multi-page navigation
+Dynamic routes
+Protected pages
+Navigation menus
+Procedure
+Install and configure React Router.
+Create different components for different pages.
+Define routes for each page.
+Create navigation links.
+Implement dynamic routes such as /product/:id.
+Create protected pages that require authentication.
+Test navigation between different pages.
+Example Routes
+/                 → Home
+/about            → About
+/products         → Products
+/products/:id     → Product Details
+/dashboard        → Protected Dashboard
+Outcome
+
+Students understand SPA navigation, routing, dynamic routes, and protected pages in React.
+
+
+
+MODULE:4
+Activity 5: Team UI Development Sprint
+
+
+Aim
+
+To develop a dashboard interface collaboratively using reusable React components.
+
+Procedure
+Form teams and assign different tasks to team members.
+Design the dashboard layout.
+Create reusable components such as:
+Navbar
+Sidebar
+Cards
+Charts
+Tables
+Dashboard widgets
+Integrate all components into one React application.
+Use Git and GitHub for version control.
+Review and test the complete application.
+Present the final dashboard to the class.
+Outcome
+
+Students gain practical experience in collaborative frontend development, reusable React components, Git workflow, and team-based UI development.
+
+Industry Use Cases
+1. E-Commerce Platforms
+
+React is commonly used to build interactive shopping interfaces.
+
+Examples:
+
+Product Listings
+Shopping Carts
+Checkout Interfaces
+Product Details
+Order Tracking
+
+Example: An online shopping application can use reusable product cards and shopping-cart components.
+
+2. Learning Management Systems
+
+React can be used to develop interactive educational platforms.
+
+Examples:
+
+Course Dashboards
+Progress Tracking
+Assessment Portals
+Student Profiles
+Online Quizzes
+
+Example: A student dashboard can display enrolled courses, completed lessons, and learning progress.
+
+3. Recruitment Platforms
+
+React can be used to create dynamic recruitment and job-search applications.
+
+Examples:
+
+Job Listings
+Application Tracking
+Candidate Dashboards
+Search and Filter Features
+Recruiter Panels
+
+Example: A candidate dashboard can show applied jobs and their current application status.
+
+4. SaaS Applications
+
+React is widely suitable for building web-based Software-as-a-Service applications.
+
+Examples:
+
+Admin Dashboards
+Analytics Portals
+User Management Systems
+Reports
+Notifications
+
+Example: An admin dashboard can display user statistics, system activity, and analytics using reusable widgets.
+
+Overall Outcome
+
+Through these activities, students gain practical knowledge of React components, props, state management, API integration, routing, reusable UI design, and collaborative frontend development, along with an understanding of how these concepts are applied in real-world industry applications.

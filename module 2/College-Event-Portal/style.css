@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f7fb;
+    color: #222;
+}
+
+
+/* Navigation */
+
+header {
+    background-color: #172554;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #facc15;
+}
+
+.menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+
+/* Hero */
+
+.hero {
+    min-height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background: linear-gradient(
+        135deg,
+        #172554,
+        #2563eb,
+        #7c3aed
+    );
+
+    color: white;
+}
+
+.hero-content {
+    max-width: 800px;
+    padding: 30px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+.hero-description {
+    font-size: 17px !important;
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+
+    background-color: #facc15;
+    color: #172554;
+
+    text-decoration: none;
+
+    border-radius: 6px;
+
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: white;
+}
+
+
+/* Announcements */
+
+.announcements {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.announcements h2 {
+    margin-bottom: 20px;
+}
+
+.announcement-box {
+    background-color: white;
+    padding: 20px;
+
+    border-left: 5px solid #2563eb;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Common Section */
+
+.section {
+    max-width: 1100px;
+    margin: auto;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 35px;
+    color: #172554;
+    margin-bottom: 10px;
+}
+
+.section-description {
+    margin-bottom: 35px;
+    color: #555;
+}
+
+
+/* Event Cards */
+
+.event-container {
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 20px;
+}
+
+.event-card {
+    background-color: white;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 5px 15px rgba(0, 0, 0, 0.1);
+
+    transition: 0.3s;
+}
+
+.event-card:hover {
+    transform: translateY(-8px);
+}
+
+.event-icon {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.event-card h3 {
+    color: #172554;
+    margin-bottom: 10px;
+}
+
+.event-card p {
+    margin: 8px 0;
+}
+
+.event-card button {
+    margin-top: 15px;
+
+    padding: 10px 18px;
+
+    border: none;
+
+    background-color: #2563eb;
+    color: white;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.event-card button:hover {
+    background-color: #172554;
+}
+
+
+/* Schedule */
+
+.schedule {
+    padding: 70px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.schedule h2 {
+    color: #172554;
+    margin-bottom: 30px;
+}
+
+.table-container {
+    max-width: 1000px;
+    margin: auto;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #172554;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f5f9;
+}
+
+
+/* Registration */
+
+form {
+    max-width: 650px;
+    margin: auto;
+
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 5px 15px rgba(0, 0, 0, 0.1);
+
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+    font-size: 15px;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+.submit-btn {
+    width: 100%;
+
+    padding: 13px;
+
+    border: none;
+
+    background-color: #2563eb;
+    color: white;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.submit-btn:hover {
+    background-color: #172554;
+}
+
+
+/* Gallery */
+
+.gallery-section {
+    background-color: #eef2ff;
+    max-width: none;
+}
+
+.gallery {
+    max-width: 1100px;
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 20px;
+}
+
+.gallery-item {
+    min-height: 180px;
+
+    background-color: white;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 60px;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+/* Contact */
+
+.contact {
+    padding: 60px 20px;
+
+    text-align: center;
+
+    background-color: #172554;
+
+    color: white;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact p {
+    margin: 8px;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 20px;
+
+    text-align: center;
+
+    background-color: #0f172a;
+
+    color: white;
+}
+
+
+/* Mobile Responsive */
+
+@media (max-width: 900px) {
+
+    .event-container {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .gallery {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .nav-links {
+        display: none;
+
+        position: absolute;
+
+        top: 60px;
+        left: 0;
+
+        width: 100%;
+
+        background-color: #172554;
+
+        flex-direction: column;
+
+        text-align: center;
+
+        padding: 20px;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .hero {
+        min-height: 500px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero p {
+        font-size: 20px;
+    }
+
+    .event-container {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .section h2 {
+        font-size: 28px;
+    }
+}

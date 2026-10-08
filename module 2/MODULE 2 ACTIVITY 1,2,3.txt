@@ -1,0 +1,138 @@
+MODULE:1:Activity 1: Responsive Layout Design
+
+
+Aim
+
+To create a responsive landing page that automatically adjusts its layout according to different screen sizes such as desktop, tablet, and mobile.
+
+Requirements
+Computer or laptop
+Web browser
+HTML
+CSS
+Code editor such as VS Code
+Procedure
+
+Step 1: Create the HTML Structure
+Students create a landing page containing a header, navigation bar, main content, images, and footer.
+
+Step 2: Add CSS Styling
+CSS is used to arrange and style the different elements of the webpage.
+
+Step 3: Apply Responsive Design
+Media queries are used to change the layout according to the screen size.
+
+Example:
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+Step 4: Test Different Screen Sizes
+Students test the webpage on desktop, tablet, and mobile screen sizes using browser developer tools.
+
+Result
+
+Students learn how to design webpages that provide a good user experience across desktop, tablet, and mobile devices.
+
+
+
+
+MODULE:2:Activity 2: Interactive Form Development
+
+
+
+Aim
+
+To create an interactive registration form with input validation and user feedback.
+
+Requirements
+Computer or laptop
+Web browser
+HTML
+CSS
+JavaScript
+VS Code
+Procedure
+
+Step 1: Create the Registration Form
+Students create fields such as:
+
+Name
+Email
+Password
+Phone Number
+Submit button
+
+Step 2: Add Form Styling
+CSS is used to make the form clear and user-friendly.
+
+Step 3: Implement Validation
+JavaScript is used to check whether the entered information is valid.
+
+Example:
+
+if (email === "") {
+    alert("Please enter your email");
+}
+
+Step 4: Provide User Feedback
+The webpage displays appropriate messages when the user enters incorrect information or successfully submits the form.
+
+Result
+
+Students understand how to create interactive forms, validate user input, and provide feedback using HTML, CSS, and JavaScript.
+
+
+
+
+
+MODULE:2:Activity 3: DOM Manipulation Workshop
+
+
+Aim
+
+To understand how JavaScript can dynamically modify webpage content based on user actions.
+
+Requirements
+Computer or laptop
+Web browser
+HTML
+CSS
+JavaScript
+VS Code
+Procedure
+
+Step 1: Create the Webpage
+Students create HTML elements such as headings, paragraphs, buttons, and forms.
+
+Step 2: Access HTML Elements
+JavaScript is used to select elements from the webpage.
+
+let heading = document.getElementById("heading");
+
+Step 3: Handle User Actions
+Event listeners are added for actions such as button clicks.
+
+button.addEventListener("click", function() {
+    heading.textContent = "Welcome!";
+});
+
+Step 4: Dynamically Update Content
+When the user clicks a button or submits a form, JavaScript changes the webpage content without reloading the entire page.
+
+Example
+Before Click:
+Welcome
+
+       ↓
+  [Click Button]
+       ↓
+
+After Click:
+Hello, Welcome to the Website!
+Result
+
+Students learn how to use DOM manipulation and JavaScript events to dynamically change webpage content based on user interactions.
